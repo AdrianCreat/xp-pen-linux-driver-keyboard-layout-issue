@@ -17,9 +17,9 @@ Changing the keyboard layout from German (DE) or French (FR) to English (US) fix
 ## Tested driver packages
 
 The same driver version was tested using different package formats provided by XP-Pen:
-XPPenLinux3.4.9-240607.tar.gz on Arch Linux
-XPPenLinux3.4.9-240607.deb on Ubuntu
-XPPenLinux-3.4.9-240607.rpm on Fedora
+- XPPenLinux3.4.9-240607.tar.gz on Arch Linux
+- XPPenLinux3.4.9-240607.deb on Ubuntu
+- XPPenLinux-3.4.9-240607.rpm on Fedora
 
 ## Tested systems
 
