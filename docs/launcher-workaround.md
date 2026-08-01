@@ -102,6 +102,12 @@ This launcher is a convenience workaround and not a fix for the XP-Pen driver it
 Because the launcher temporarily changes the primary keyboard layout to US, any other application started during this short time window may also inherit the US layout.
 The delay is intentionally set to provide enough startup time for Krita on slower systems. Feel free to adjust it to suit your hardware.
 
+## Compatibility
+
+This workaround has been tested on Ubuntu 24.04.4 LTS with GNOME.
+
+It may also work on other GNOME-based distributions, but adjustments may be required depending on your desktop environment and configuration.
+
 
 
 
