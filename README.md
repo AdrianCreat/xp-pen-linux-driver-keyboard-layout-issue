@@ -65,6 +65,8 @@ While the documentation specifically mentions express keys, testing shows that t
 Switch the system keyboard layout to English (US). 
 - You can use a shortcut to change between the different keyboard layouts
 
+I also created a launcher that does not require other librarys for GNOME based distributions: https://github.com/AdrianCreat/xp-pen-linux-driver-keyboard-layout-issue/blob/main/docs/launcher-workaround.md
+
 After switching:
 
 - Ctrl+Z works correctly
