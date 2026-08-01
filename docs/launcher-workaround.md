@@ -72,7 +72,8 @@ Run:
 ## 4) Update your Krita launcher
 ## Update the Krita launcher
 
-Locate the `krita.desktop` launcher 
+Locate the `krita.desktop` launcher.
+
 My file is at ~/.local/share/applications/krita.desktop
 
 Open an editor and replace the `Exec=` line.
@@ -81,12 +82,12 @@ nano ~/.local/share/applications/krita.desktop
 ```
 Example:
 
-```bash
+```ini
 Exec=/path/to/Krita.AppImage %F
 ```
 
 Replace it with:
-```bash
+```ini
 Exec=/home/USERNAME/bin/start-krita.sh %F
 ```
 
