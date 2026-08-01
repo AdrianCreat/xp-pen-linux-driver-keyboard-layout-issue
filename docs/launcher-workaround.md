@@ -79,6 +79,7 @@ Open an editor and replace the `Exec=` line.
 For nano: ```bash
 nano ~/.local/share/applications/krita.desktop
 ```
+
 Example:
 
 ```ini
