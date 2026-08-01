@@ -76,7 +76,8 @@ Locate the `krita.desktop` launcher.
 My file is at ~/.local/share/applications/krita.desktop
 
 Open an editor and replace the `Exec=` line.
-For nano: ```bash
+For nano: 
+```bash
 nano ~/.local/share/applications/krita.desktop
 ```
 
