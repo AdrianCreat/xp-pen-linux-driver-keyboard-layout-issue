@@ -13,7 +13,7 @@
 ```bash
 mkdir -p ~/bin
 nano ~/bin/start-krita.sh
-chmod +x ~/bin/start-krita.sh  # Script ausführbar machen  # Make the launcher script executable.
+chmod +x ~/bin/start-krita.sh  # Make the launcher script executable.
 ```
 
 ## 2) After opening start-krita.sh in your Editor copy paste the following script into `start-krita.sh`
