@@ -10,11 +10,14 @@
 ## 1) Create a bin directory in your home directory and create the file start-krita.sh
 - I would recommend to use nano as an editor but you can use any editor you whant
 
+```bash
 mkdir -p ~/bin
 nano ~/bin/start-krita.sh
 chmod +x ~/bin/start-krita.sh  # Script ausführbar machen  # Make the launcher script executable.
+```
 
 ## 2) After opening start-krita.sh in your Editor copy paste the following script into `start-krita.sh`
+```bash
 #!/bin/bash
 
 # Prevent multiple instances of this launcher from running simultaneously.
@@ -40,7 +43,7 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', '
 
 # Launching the Krita AppImage and also allowing other arguments to be passed down.
 $HOME/PATH-TO-YOUR-KRITA-APPIMAGE/krita-5.3.3-x86_64.AppImage "$@" 
-
+```
 ## 2) Adjust the script
 Replace de with your own primary keyboard layout.
 
@@ -52,8 +55,9 @@ Examples:
 - Czech → cz
 
 You can find out yours with:
+```bash
 gsettings get org.gnome.desktop.input-sources sources
-
+```
 Add the path to your Krita app image to the last line of the script 
 
 ## 3) Test the launcher
@@ -62,7 +66,7 @@ Run:
 
 ```bash
 ~/bin/start-krita.sh
-
+```
 - Are there no problems and now your keyboard layout is set to the US layout? If not, try to give Krita more time to launche by adjusting the 9 seconds to 15. Launching time differs from device to device.
 
 ## 4) Update your Krita launcher
@@ -72,16 +76,17 @@ Locate the `krita.desktop` launcher
 My file is at ~/.local/share/applications/krita.desktop
 
 Open an editor and replace the `Exec=` line.
-For nano: nano ~/.local/share/applications/krita.desktop
-
+For nano: ```bash
+nano ~/.local/share/applications/krita.desktop
+```
 Example:
 
-```
+```bash
 Exec=/path/to/Krita.AppImage %F
 ```
 
 Replace it with:
-```
+```bash
 Exec=/home/USERNAME/bin/start-krita.sh %F
 ```
 
