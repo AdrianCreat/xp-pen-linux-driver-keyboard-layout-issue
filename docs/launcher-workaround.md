@@ -44,7 +44,7 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', '
 # Launching the Krita AppImage and also allowing other arguments to be passed down.
 $HOME/PATH-TO-YOUR-KRITA-APPIMAGE/krita-5.3.3-x86_64.AppImage "$@" 
 ```
-## 2) Adjust the script
+## 3) Adjust the script
 Replace de with your own primary keyboard layout.
 
 Examples:
@@ -60,7 +60,7 @@ gsettings get org.gnome.desktop.input-sources sources
 ```
 Add the path to your Krita app image to the last line of the script 
 
-## 3) Test the launcher
+## 4) Test the launcher
 
 Run:
 
@@ -69,7 +69,7 @@ Run:
 ```
 - Are there no problems and now your keyboard layout is set to the US layout? If not, try to give Krita more time to launche by adjusting the 9 seconds to 15. Launching time differs from device to device.
 
-## 4) Update your Krita launcher
+## 5) Update your Krita launcher
 
 Locate the `krita.desktop` launcher.
 
