@@ -45,7 +45,7 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', '
 $HOME/PATH-TO-YOUR-KRITA-APPIMAGE/krita-5.3.3-x86_64.AppImage "$@" 
 ```
 ## 3) Adjust the script
-Replace de with your own primary keyboard layout.
+Replace `de` with your own primary keyboard layout.
 
 Examples:
 - German → de
