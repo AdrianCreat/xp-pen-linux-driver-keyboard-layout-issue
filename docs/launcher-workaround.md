@@ -70,7 +70,6 @@ Run:
 - Are there no problems and now your keyboard layout is set to the US layout? If not, try to give Krita more time to launche by adjusting the 9 seconds to 15. Launching time differs from device to device.
 
 ## 4) Update your Krita launcher
-## Update the Krita launcher
 
 Locate the `krita.desktop` launcher.
 
